@@ -1,0 +1,17 @@
+Package: Wen.cpu.RlPNDlP
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: 插件
+Maintainer: RlPNDlP
+Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
+Filename: debs/Wen.cpu.RlPNDlP_2.0_iphoneos-arm64.deb
+Size: 1960
+MD5sum: bc89019f9852daa0b3d5fc21885c1b4f
+SHA1: 593c5bb4f5f4f3ca4997b6f60cdfaa8ae903f406
+SHA256: 229a8c16f8e8c2c753776ddacab9ff982d154bd4a4a38a343a733406949fec21
+SHA512: 90a88c86b606a6046556c2851b0fb0bc9ed43f0cdb9e51745d2cff7b2042c7f1db8d05ca50bd29e21e109aea57464f9833326d13de50d063114b1d5fe1f896b3
+Description: 威锋网友：一铭劉學珄，打包deb越狱自动运行虚拟内存.sh
+Name: 虚拟内存优化
+Author: RlPNDlP
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+
