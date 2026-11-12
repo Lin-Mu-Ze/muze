@@ -15,3 +15,59 @@ Name: 虚拟内存优化
 Author: RlPNDlP
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 
+Package: com.curtin.pkc
+Architecture: iphoneos-arm64e
+Version: 0.9-8
+Priority: optional
+Section: 微信插件
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/com.curtin.pkc_0.9-8_iphoneos-arm64e.deb
+Size: 3777192
+MD5sum: fcefc067882ec8a191dd689dde3267e7
+SHA1: 6a09379b9375b46ab0a141f6932c965889904d73
+SHA256: aafb6b1bfab6c7e99c540f449efe352510fd2b9bc0fddf1cfbd544c88f478fca
+SHA512: cf6d3ea90919138e93a977a389166e2f7ba7a7ef44d249dde190c472ee0c7bcaef9794db94aef047986ff8a28a2e297835a4df3305871238389a41a0ba04ee48
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等。
+Name: PKC
+Author: Curtin
+Icon: https://TrollStoreX.Github.io/sileodepiction/PKC/icon.png
+
+Package: com.fizz.ripple
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Depends: firmware (>= 15.0), preferenceloader.top | preferenceloader
+Filename: debs/com.fizz.ripple_0.1.0_iphoneos-arm64e.deb
+Size: 98760
+MD5sum: 347f875a14f2cc6c756579f79990b520
+SHA1: bb984b8d4994b9a45b5f4bd73a9c421af66dcf64
+SHA256: 1be56ddae84263535c0d8b8f3838acde342a6c0cb288597621eb4578ebeee4fc
+SHA512: 8d6cb2a6d60ed598c4c3d6dbcc9fb356938d5df665c5559c504d30d2bb3eb35b6bde38896a89e18930c4090fc0a4044d7d71e817a6961b03b623f045f7433cc1
+Description: 主屏幕的双指张开手势：图标向外荡漾，每个应用程序徽章都生长并淡出并保持清除状态，系统轻点一下即可标记它们消失的那一刻。
+Name: Fizz
+Author: Lessica <82flex@gmail.com>
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+
+Package: preferenceloader.top
+Architecture: iphoneos-arm64
+Version: 2.2.7
+Section: Tweaks
+Maintainer: ProcursusTeam <support@procurs.us>
+Installed-Size: 148
+Provides: preferenceloader (= 2.2.6)
+Depends: mobilesubstrate
+Conflicts: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
+Replaces: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
+Filename: debs/preferenceloader.top_2.2.7_iphoneos-arm64.deb
+Size: 12976
+MD5sum: acef277f3eef41ca364f73f4006ace7c
+SHA1: c631258c2011ef98610159d9d836cd404a0ffc40
+SHA256: 7be68c83086fafaa71592d9bbfce1ab774b7e2a0296959774b555a2e0abf9bc2
+SHA512: 492187c054736396b515dfff9ba861c3a23ed91e24c43b5fd9c786888444576725f0986d27888f6a9ffee4e9a86cb33d44a4720f77d552252be4f64e411eb485
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader (Top)
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+
