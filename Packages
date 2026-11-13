@@ -1,3 +1,22 @@
+Package: cn.zqbb.hello.qactions
+Architecture: iphoneos-arm64e
+Version: 1.3.0-1
+Maintainer: zqbb
+Installed-Size: 2480
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Filename: debs/cn.zqbb.hello.qactions_1.3.0-1_iphoneos-arm64e.deb
+Size: 667232
+MD5sum: 1dc668bac51f743707763182fecd44ee
+SHA1: 5a99e0704d3b46b4b54ea49035fe180558ff0a95
+SHA256: 6b47aeebbb202564cf0b393dc11a0fb93037a6e0acb1db1d3d36b53d5afe2fb9
+SHA512: 8e3bd51a6be036ffdacdc1e7496b75d217c9c312ca1cf181c48315b486446aabece1696d8b70c2374cf1e5ba6454f2462644bc9e1494cfef04494ea975a195af
+Section: Tweaks
+Description: 通过锁屏界面的手电筒和相机快速调用指定APP快捷操作，体验一键直达。
+Name: Hello QActions
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.qactions
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.qactions
+
 Package: com.fizz.ripple
 Architecture: iphoneos-arm64e
 Version: 0.1.0
@@ -14,6 +33,24 @@ Description: 主屏幕的双指张开手势：图标向外荡漾，每个应用�
 Name: Fizz
 Author: Lessica <82flex@gmail.com>
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+
+Package: com.ning.simcontrol
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Priority: optional
+Maintainer: Ning
+Depends: firmware (>= 16.0), firmware (<< 18.0), com.opa334.ccsupport
+Filename: debs/com.ning.simcontrol_1.0.3_iphoneos-arm64.deb
+Size: 146472
+MD5sum: 22e0e7d0371e83e0a09c54177745a7e3
+SHA1: 2d42f24b4d2b43f78579f27f1165eb97fb5ef5cc
+SHA256: d576a6a80bcbc5c83297fddbec44f5ddf85630aa89ddc8bb4331e82333bb662d
+SHA512: 476c1076e0e99955f10214db81e53fa36ae2c004a0a27b3cfee21fa067459c2da8e682dbf228f152bb9dbb5417ac87edfbd8db7a118cf99b1b12c1bded896b1e
+Section: Tweaks
+Description: Native SIM switches for the system Control Center (rootless).
+Name: 蜂窝管理
+Author: Ning
+Icon: file:///var/jb/usr/share/icons/com.ning.simcontrol.png
 
 Package: preferenceloader.top
 Architecture: iphoneos-arm64
@@ -70,6 +107,105 @@ Description: 威锋网友：一铭劉學珄，打包deb越狱自动运行虚拟�
 Name: 虚拟内存优化
 Author: RlPNDlP
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+
+Package: cn.zqbb.fix120hz
+Architecture: iphoneos-arm64e
+Version: 3.3.3-3
+Maintainer: zqbb
+Installed-Size: 1216
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb
+Size: 413408
+MD5sum: 98811b3beab76487759c0aa8a807be99
+SHA1: f452915a76eb552da9eec8ebb7e8f633cab8635f
+SHA256: 07ce9907b66f0427b8c4409dab4523f65fa246012f0ecbe6cf28fd97eb02136c
+SHA512: 39cf13b1db398167ff3b5ced367a59b0fbb7c9690ad240ab8c619c6e48b383ef08159b911a9f548ae8b21a2679f0a30553c0d646e9fc9581778d06835acbd169
+Section: 插件
+Description:
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Name: Hello 120Hz
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
+
+Package: cn.zqbb.hello.bundleid
+Architecture: iphoneos-arm64e
+Version: 1.6.1-5
+Maintainer: zqbb
+Installed-Size: 10780
+Filename: debs/cn.zqbb.hello.bundleid_1.6.1-5_iphoneos-arm64e.deb
+Size: 2962200
+MD5sum: b7c82b74436c4f6f8d48a1c5e1ba4296
+SHA1: 03c10edd63dc35e68c584bdcd6538b2cca294aed
+SHA256: 90bb548545c8c7398cce4828ac8ffb79fca9902e943d0abea2bd55a4243af200
+SHA512: d0791077dccffaba52c2defcdb6beb0f47954187a541998d12aa35b3e0755bc3d9324199700cb5f307a21be106c1462f3c36f160e17954e546c872f522b6e118
+Section: 插件
+Description: 伪装越狱和巨魔应用，让商店应用更难检测越狱!
+Name: HelloBundleID
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
+
+Package: cn.zqbb.hello.keyboard.ai
+Architecture: iphoneos-arm64e
+Version: 6.6.6-3
+Maintainer: zqbb
+Installed-Size: 11100
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.zqbb.hello.keyboard.ai
+Filename: debs/cn.zqbb.hello.keyboard.ai_6.6.6-3_iphoneos-arm64e.deb
+Size: 2812288
+MD5sum: ca14c1e720358597e634ef3507b327de
+SHA1: f199bc5abbc73677d1d049da9a5414646ccdc0d6
+SHA256: 4760db713f0d7920df143d435bf8631616f0c67b5523971ec0bdf64850ed1f5e
+SHA512: 5d661f8d41560bfcd9786966aff6765525b037029cfb98e6beffe549a456d4b205f8e8e094dc7a416150c26394c8fdbbed8d25c4dbeb466de32467fe33ded5bd
+Section: 插件
+Description: Quickly activate AI mode.
+Name: Hello 键盘侠 (roothide)
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.keyboard.ai.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.keyboard.ai
+
+Package: cn.zqbb.hello.memorystatus
+Architecture: iphoneos-arm64e
+Version: 3.9.0-6
+Maintainer: zqbb
+Installed-Size: 11476
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, launchctl
+Filename: debs/cn.zqbb.hello.memorystatus_3.9.0-6_iphoneos-arm64e.deb
+Size: 3067422
+MD5sum: 2e7492c9d464414ae9b606a96ac53321
+SHA1: 155a8815d4ed6815522393c6a9136dc118ff40f4
+SHA256: 97b86c1b2a5128670765e5f0b658171f6fec522d90c5b242570351ce46378c2b
+SHA512: 9f995f711f493c76120ae7b8972cf52f52d5acd70f0233b29c646ab9a96f27132c4ad1684ab7b91ef3eb7c76dcf0d43f8563c14248eaead9f6cebb114a9c097f
+Section: 插件
+Description: Set memorystatus to avoid being killed by the system
+Author: zqbb
+Name: Hello Memory Status
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.memorystatus.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.memorystatus
+
+Package: cn.zqbb.hello.quick.panel
+Architecture: iphoneos-arm64e
+Version: 1.0.0-5
+Maintainer: zqbb
+Installed-Size: 5488
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/cn.zqbb.hello.quick.panel_1.0.0-5_iphoneos-arm64e.deb
+Size: 1498688
+MD5sum: 677002f21733799860208de00798c6dd
+SHA1: fd03c8aa72c5d0a16a0ad695ce19ebea366486c5
+SHA256: b1f984eb377d2eb244ca4cdcf735ab97f8f811050e2ef2d9664f8715fa1ad30e
+SHA512: 2eb350624e23a0eff53a50e9628be13ae82127d4b5dd7ccdf93e3faf59ad7ea49852fcc4fc17bb8719426a6e6e46301fd8336240b9ee5652eed36f0645a9e8d1
+Section: 插件
+Description: 快捷面板~
+Name: Hello QuickPanel
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.quick.panel.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.quick.panel
 
 Package: com.jumping.thermaldetect
 Architecture: iphoneos-arm64e
