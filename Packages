@@ -17,27 +17,6 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.qactions
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.qactions
 
-Package: preferenceloader.top
-Architecture: iphoneos-arm64
-Version: 2.2.7
-Maintainer: ProcursusTeam <support@procurs.us>
-Installed-Size: 148
-Provides: preferenceloader (= 2.2.6)
-Depends: mobilesubstrate
-Conflicts: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
-Replaces: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
-Filename: debs/preferenceloader.top_2.2.7_iphoneos-arm64.deb
-Size: 12976
-MD5sum: acef277f3eef41ca364f73f4006ace7c
-SHA1: c631258c2011ef98610159d9d836cd404a0ffc40
-SHA256: 7be68c83086fafaa71592d9bbfce1ab774b7e2a0296959774b555a2e0abf9bc2
-SHA512: 492187c054736396b515dfff9ba861c3a23ed91e24c43b5fd9c786888444576725f0986d27888f6a9ffee4e9a86cb33d44a4720f77d552252be4f64e411eb485
-Section: Tweaks
-Description: load preferences in style
-Author: Dhinak G <dhinak@dhinak.net>
-Name: PreferenceLoader (Top)
-Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
-
 Package: com.curtin.pkc
 Architecture: iphoneos-arm64e
 Version: 0.9-8
@@ -55,23 +34,6 @@ Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、�
 Name: PKC
 Author: Curtin
 Icon: https://TrollStoreX.Github.io/sileodepiction/PKC/icon.png
-
-Package: Wen.cpu.RlPNDlP
-Architecture: iphoneos-arm64
-Version: 2.0
-Maintainer: RlPNDlP
-Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
-Filename: debs/Wen.cpu.RlPNDlP_2.0_iphoneos-arm64.deb
-Size: 1960
-MD5sum: bc89019f9852daa0b3d5fc21885c1b4f
-SHA1: 593c5bb4f5f4f3ca4997b6f60cdfaa8ae903f406
-SHA256: 229a8c16f8e8c2c753776ddacab9ff982d154bd4a4a38a343a733406949fec21
-SHA512: 90a88c86b606a6046556c2851b0fb0bc9ed43f0cdb9e51745d2cff7b2042c7f1db8d05ca50bd29e21e109aea57464f9833326d13de50d063114b1d5fe1f896b3
-Section: 插件
-Description: 威锋网友：一铭劉學珄，打包deb越狱自动运行虚拟内存.sh
-Name: 虚拟内存优化
-Author: RlPNDlP
-Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
