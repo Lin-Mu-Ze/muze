@@ -1,16 +1,16 @@
-Origin: 我的
-Label: 我的
+Origin: A-林慕泽
+Label: A-林慕泽
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: 我的
+Description: A-林慕泽
 Support: https://Lin-Mu-Ze.github.io/muze/
 Icon: https://Lin-Mu-Ze.github.io/muze/CydiaIcon.png
 MD5Sum:
  ea86fa122183685f9a9ab5a582eddb65  10708 Packages
- 07b656cbc3ca77eddc9c3f37eb1ed854  4858 Packages.gz
+ 0b9335fd8c73c50d6acdd6fea5fa7f70  4858 Packages.gz
 SHA256:
  ec0ed7a9a0ca42e61ff8857a23414902a809ad26147f749cfa5b93cbac7751b9  10708 Packages
- 0d711dc76f69a912ff2e94d923b0a524898cf2401683a500ffa6f18a6c08d650  4858 Packages.gz
+ a4f56260f6c616d89f0ccc22f7b25ff039d26c4d193fa8941e87903059a438df  4858 Packages.gz
