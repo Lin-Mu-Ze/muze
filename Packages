@@ -17,41 +17,6 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.qactions
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.qactions
 
-Package: com.fizz.ripple
-Architecture: iphoneos-arm64e
-Version: 0.1.0
-Maintainer: Lessica <82flex@gmail.com>
-Depends: firmware (>= 15.0), preferenceloader.top | preferenceloader
-Filename: debs/com.fizz.ripple_0.1.0_iphoneos-arm64e.deb
-Size: 98760
-MD5sum: 347f875a14f2cc6c756579f79990b520
-SHA1: bb984b8d4994b9a45b5f4bd73a9c421af66dcf64
-SHA256: 1be56ddae84263535c0d8b8f3838acde342a6c0cb288597621eb4578ebeee4fc
-SHA512: 8d6cb2a6d60ed598c4c3d6dbcc9fb356938d5df665c5559c504d30d2bb3eb35b6bde38896a89e18930c4090fc0a4044d7d71e817a6961b03b623f045f7433cc1
-Section: Tweaks
-Description: 主屏幕的双指张开手势：图标向外荡漾，每个应用程序徽章都生长并淡出并保持清除状态，系统轻点一下即可标记它们消失的那一刻。
-Name: Fizz
-Author: Lessica <82flex@gmail.com>
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-
-Package: com.ning.simcontrol
-Architecture: iphoneos-arm64
-Version: 1.0.3
-Priority: optional
-Maintainer: Ning
-Depends: firmware (>= 16.0), firmware (<< 18.0), com.opa334.ccsupport
-Filename: debs/com.ning.simcontrol_1.0.3_iphoneos-arm64.deb
-Size: 146472
-MD5sum: 22e0e7d0371e83e0a09c54177745a7e3
-SHA1: 2d42f24b4d2b43f78579f27f1165eb97fb5ef5cc
-SHA256: d576a6a80bcbc5c83297fddbec44f5ddf85630aa89ddc8bb4331e82333bb662d
-SHA512: 476c1076e0e99955f10214db81e53fa36ae2c004a0a27b3cfee21fa067459c2da8e682dbf228f152bb9dbb5417ac87edfbd8db7a118cf99b1b12c1bded896b1e
-Section: Tweaks
-Description: Native SIM switches for the system Control Center (rootless).
-Name: 蜂窝管理
-Author: Ning
-Icon: file:///var/jb/usr/share/icons/com.ning.simcontrol.png
-
 Package: preferenceloader.top
 Architecture: iphoneos-arm64
 Version: 2.2.7
