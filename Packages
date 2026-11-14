@@ -120,6 +120,43 @@ Description: 本机抓码清单 + 桌面悬浮入口 + 查件面板，数据只�
 Name: 取件快码 Assit
 Author: AssitDev
 
+Package: com.c18.nativecontextmenu.p15
+Architecture: iphoneos-arm64e
+Version: 1.1
+Maintainer: 半生年华
+Installed-Size: 260
+Depends: mobilesubstrate
+Conflicts: com.c18.cellularmenuproto
+Filename: debs/com.c18.nativecontextmenu.p15_1.1_iphoneos-arm64e.deb
+Size: 16404
+MD5sum: 3aa1f8e9337e34d75524c309a1c5497f
+SHA1: be81910d0a5af9ba8d92f38aaab5062918b05a42
+SHA256: 00a6c336fc1c9dd89766ea7972dfcb52277afcd3b366add621d474e7f9755c00
+SHA512: 55a2e2dd7b1f9dd332978a8096045b0374a5966b5a05b414ad572a875afb536fe783e50e9bc042613f8e133a01e0c81db3af30503c3387c7da2eabde74137466
+Section: Tweaks
+Description: 为ControlCenter18适配快速切换蜂窝数据号码
+Name: C18traffic
+Author: 半生年华
+
+Package: com.c18.powermenu
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: 半年年华
+Installed-Size: 388
+Depends: mobilesubstrate
+Conflicts: com.c18.powermenu.p41
+Replaces: com.c18.powermenu.p41
+Filename: debs/com.c18.powermenu_1.0_iphoneos-arm64e.deb
+Size: 16676
+MD5sum: d4ced1cccb7a067cc8058fbff2dec180
+SHA1: 6c658f3089ce3db6a4d9a326ad06a40c8bc44eea
+SHA256: 281ce9f6cbf3d2990fc8aa2783fbc8f87c395f9715ec60ba8f738bd01cd8cb99
+SHA512: cc6f3cc5a2ccd2d19725fe470c4998232f95e26db497ca9037e52beb2e100b5b917d82d938fadc5f706e1d41b4b2ce1e2e119d9489a460fa38c3ab7dfd9ddeb7
+Section: Tweaks
+Description: 为ControlCenter18适配右上角加号长按 可选择重启用户空间等等
+Name: C18off
+Author: 半年年华
+
 Package: com.curtin.pkc
 Architecture: iphoneos-arm64e
 Version: 0.9-8
