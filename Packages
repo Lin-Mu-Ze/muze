@@ -157,6 +157,58 @@ Description: 为ControlCenter18适配右上角加号长按 可选择重启用户
 Name: C18off
 Author: 半年年华
 
+Package: com.qqx.bsnh
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: 半生年华
+Installed-Size: 324
+Depends: firmware (>= 15.0)
+Filename: debs/com.qqx.bsnh_1.0_iphoneos-arm64e.deb
+Size: 45140
+MD5sum: 5cc6ff48e307464a5c167dca11aeb9c2
+SHA1: 0e21412ad5b9cc728821393850d435412dfbb316
+SHA256: 8c60ea8bd1d5cad6e147343f53cce6252b30290aa50c8f66bae8ed51a843f165
+SHA512: e4839c1de71a6442f9cea2100c1d0ee1adc311626a8b7882f9f234a069558dbcaf77ed8498017184bd6492eed01d071c404d1e646e222076d422d0c1e021e80c
+Section: Tweaks
+Description: 加密图片或者视频 群聊 1106363887
+Name: QQX
+Author: 半生年华
+
+Package: com.xiaoyu.locktime
+Architecture: iphoneos-arm64
+Version: 1.0.0-144
+Maintainer: 小鱼 <xiaoyu@example.com>
+Installed-Size: 516
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit (>= 0.1), preferenceloader
+Filename: debs/com.xiaoyu.locktime_1.0.0-144_iphoneos-arm64.deb
+Size: 66790
+MD5sum: fa41367a46bff15cba2e9c1346a7576e
+SHA1: 2a2b3cb11adae68fef39d63374e4214f0ff4e0aa
+SHA256: c2017a8bb820227e15d6e14af07cfa3680b7e70d3c7fc69b08e5e85e51d8ec6c
+SHA512: ea2f173ffdbca10ff787e84b04ff2c06e17ef1a64c7bd1982ea09e742fc4bd324927927408adc37cf2d59c96543f0bb2e0c799f6ad2b5d20264b9ae37de9ccb1
+Section: Tweaks
+Description: 锁屏时间增强
+Name: 锁屏时间 (LockTime)
+Author: 小鱼 <xiaoyu@example.com>
+
+Package: com.zengniu.splitview
+Architecture: iphoneos-arm64
+Version: 0.7.66
+Maintainer: ZengNiu
+Installed-Size: 1836
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Filename: debs/分屏_0.7.66_无根.deb
+Size: 392936
+MD5sum: 0833a0e5726765767e5c50bcb2235fdd
+SHA1: e958c1842f6f45861d9dd78e1cdd1c97ad95c302
+SHA256: c9dc70ecdc4ca1ceda384ea398f336b559d87d4349aaa4ba21d56f51c2a1b7d6
+SHA512: db98e4cff821585cdf1fcad983ee8786f584ebd0e748ee6e181eebdc3673b991b60d92dbd66be8a3e5b7ea2cf1e4b1902259c7ce4a68f4ebc5c3e63baa74dfc2
+Section: Tweaks
+Description: Live app windows; temporary native-width portrait input scene.
+Name: 曾牛-分屏🐮
+Author: ZengNiu
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+
 Package: com.curtin.pkc
 Architecture: iphoneos-arm64e
 Version: 0.9-8
