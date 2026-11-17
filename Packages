@@ -120,6 +120,28 @@ Description: 本机抓码清单 + 桌面悬浮入口 + 查件面板，数据只�
 Name: 取件快码 Assit
 Author: AssitDev
 
+Package: com.bazik1337.ios27animsreborn
+Architecture: iphoneos-arm64
+Version: 1.0.0~beta1
+Maintainer: bazik1337 <https://t.me/bazik1337>
+Installed-Size: 584
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.bazik1337.ios2627anims, com.bazik.codexgenie27, com.bazik.genie27
+Filename: debs/com.bazik1337.ios27animsreborn_1.0.0_beta1_iphoneos-arm64.deb
+Size: 75898
+MD5sum: ef2e732097361eaf7ff28d0300bf6279
+SHA1: 0123691830c0344e9be7dd4dd91a9f86f1843362
+SHA256: 5b5d92c5a61f6104f730cb93ded8ddba8f479e962c51aa504f75c36d3a2ec835
+SHA512: 27be525bc3a70188abb77f5a79edf65682593ab66b3c60689c9f28d935bce48b35e880dfa74de1fccce543b3ec4de987cfead89176fa24c5506199ce0a558c38
+Homepage: https://t.me/ba31k_tweaks
+Section: Tweaks
+Description: Reborn beta: genie app transitions, widget animations and Notification Center.
+Name: iOS 27 Animations Reborn
+Author: bazik1337 <https://t.me/bazik1337>
+Icon: https://repo.ba31k.com/depictions/com.bazik1337.ios27animsreborn/icon.png
+Depiction: https://repo.ba31k.com/depictions/com.bazik1337.ios27animsreborn/
+SileoDepiction: https://repo.ba31k.com/depictions/com.bazik1337.ios27animsreborn/depiction.json
+
 Package: com.c18.nativecontextmenu.p15
 Architecture: iphoneos-arm64e
 Version: 1.1
