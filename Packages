@@ -191,24 +191,6 @@ Description: 锁屏时间增强
 Name: 锁屏时间 (LockTime)
 Author: 小鱼 <xiaoyu@example.com>
 
-Package: com.zengniu.splitview
-Architecture: iphoneos-arm64
-Version: 0.7.66
-Maintainer: ZengNiu
-Installed-Size: 1836
-Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
-Filename: debs/分屏_0.7.66_无根.deb
-Size: 392936
-MD5sum: 0833a0e5726765767e5c50bcb2235fdd
-SHA1: e958c1842f6f45861d9dd78e1cdd1c97ad95c302
-SHA256: c9dc70ecdc4ca1ceda384ea398f336b559d87d4349aaa4ba21d56f51c2a1b7d6
-SHA512: db98e4cff821585cdf1fcad983ee8786f584ebd0e748ee6e181eebdc3673b991b60d92dbd66be8a3e5b7ea2cf1e4b1902259c7ce4a68f4ebc5c3e63baa74dfc2
-Section: Tweaks
-Description: Live app windows; temporary native-width portrait input scene.
-Name: 曾牛-分屏🐮
-Author: ZengNiu
-Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
-
 Package: com.curtin.pkc
 Architecture: iphoneos-arm64e
 Version: 0.9-8

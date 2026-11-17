@@ -9,8 +9,8 @@ Description: A-林慕泽
 Support: https://Lin-Mu-Ze.github.io/muze/
 Icon: https://Lin-Mu-Ze.github.io/muze/CydiaIcon.png
 MD5Sum:
- abf649659a72bba8b24bc49d07c198dd  18370 Packages
- 526c190a7c3d2dcae01537541f031cb7  9006 Packages.gz
+ bb6b0db66c27d13c41f6e47a497736bb  17609 Packages
+ bd7de52cabb02926172457c8339600fc  8628 Packages.gz
 SHA256:
- d2d015defba978bb74b826791051775f5efd7cc8e8caea8d870dac525dbc40d9  18370 Packages
- 4000ff7975d9c8dc79b8f6bc8033fb20df3e1aa2b50ff764f544ce71e60a5edb  9006 Packages.gz
+ 8eaa8a9b7a1c279377effda741c74f374cbbfd339c0138f2c1c16f7b503d4629  17609 Packages
+ 9affd2702dd6dff3115c6ff990ceaac5b2887fd85418abf25064c6047c49c6e2  8628 Packages.gz
